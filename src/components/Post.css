@@ -1,0 +1,22 @@
+.comment-container {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.comment-username {
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.comment-text {
+    flex: 1; /* Allow comment text to grow */
+    margin-right: 5px;
+    overflow-wrap: break-word; /* Wrap long words */
+}
+
+.comment-date {
+    color: #888;
+    font-size: 12px;
+    margin-left: auto;
+}
